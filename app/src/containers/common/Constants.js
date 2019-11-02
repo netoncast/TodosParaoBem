@@ -1,0 +1,7 @@
+export default class Constants {
+   ROUTE_HOME = 'ROUTE_HOME'
+   ROUTE_CADASTRO = "ROUTE_CADASTRO"
+   ROUTE_PERFIL = "ROUTE_PERFIL"
+   ROUTE_CONNECT = "ROUTE_CONNECT"
+}
+
