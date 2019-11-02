@@ -17,16 +17,19 @@ https://mobx.js.org/
 
 Passos:
 
-Clone o projeto 
+- Crie um projeto no Firebase
 
-git clone https://github.com/netoncast/TodosParaoBem.git
+- Importe os dados do arquivo "firebaseData.json" para o Database/Realtime do firebase
 
 
-cd app
+- Faça o clone/download do fonte: ex: git clone https://github.com/netoncast/TodosParaoBem.git
 
-yarn
 
-crie o arquivo "app/src/store/dispatchers/firebaseConfig.json" com as credencias do Firebase:
+- vá para pasta "app": ex:  cd app
+
+- digite: yarn
+
+- crie o arquivo "app/src/store/dispatchers/firebaseConfig.json" com as credencias do Firebase:
 
 exemplo: 
 
@@ -42,6 +45,6 @@ exemplo:
     "measurementId": "xxx"
 }
 
-yarn start
+- yarn start
 
 Pronto projeto rodando :-)

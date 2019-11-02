@@ -1,0 +1,60 @@
+{
+  "resources" : {
+    "areasData" : {
+      "828282" : {
+        "id" : 828282,
+        "title" : "Outros"
+      },
+      "939383" : {
+        "id" : 939383,
+        "title" : "Mulheres"
+      },
+      "12321232123" : {
+        "id" : 12321232123,
+        "title" : "Jovens"
+      },
+      "12321232124" : {
+        "id" : 12321232124,
+        "title" : "Crianças"
+      },
+      "12321232125" : {
+        "id" : 12321232125,
+        "title" : "Moradores de Rua"
+      },
+      "12321232126" : {
+        "id" : 12321232126,
+        "title" : "Portador de Necessidades Especiais"
+      },
+      "12321232127" : {
+        "id" : 12321232127,
+        "title" : "Idosos"
+      },
+      "12321232128" : {
+        "id" : 12321232128,
+        "title" : "Animais"
+      },
+      "12321232129" : {
+        "id" : 12321232129,
+        "title" : "Meio Ambiente"
+      }
+    },
+    "typesData" : {
+      "32321232123" : {
+        "id" : 32321232123,
+        "title" : "Somos uma empresa"
+      },
+      "32321232124" : {
+        "id" : 323212321234,
+        "title" : "Sou voluntário"
+      },
+      "32321232125" : {
+        "id" : 32321232125,
+        "title" : "Somos uma ONG"
+      },
+      "32321232126" : {
+        "id" : 32321232126,
+        "title" : "Somos um projeto (não formalizado)"
+      }
+    }
+  }
+}
