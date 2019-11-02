@@ -1,11 +1,10 @@
 import Base from '../Base';
 import { observable, action, toJS } from 'mobx';
 import * as firebase from 'firebase';
+import fileconfig from './firebaseConfig.json'
 let _me;
 
-let config = {
-  
-};
+let config = fileconfig
 
 let app = firebase.initializeApp(config);
 
