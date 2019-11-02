@@ -19,13 +19,14 @@ Passos:
 
 - Crie um projeto no Firebase
 
-- Importe os dados do arquivo "firebaseData.json" para o Database/Realtime do firebase
+- Importe os dados do arquivo "firebaseData.json" para o Database/Realtime do Firebase
 
+- Ative a autenticação por e-mail no Firebase.
 
 - Faça o clone/download do fonte: ex: git clone https://github.com/netoncast/TodosParaoBem.git
 
 
-- vá para pasta "app": ex:  cd app
+- vá para pasta "app" -> ex:  $ cd app
 
 - digite: yarn
 
@@ -45,6 +46,6 @@ exemplo:
     "measurementId": "xxx"
 }
 
-- yarn start
+- digite: yarn start
 
 Pronto projeto rodando :-)
