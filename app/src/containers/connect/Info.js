@@ -34,13 +34,13 @@ class Info extends React.Component {
     return (
       <div>
         <Dialog
-          bodyStyle={{ backgroundColor: '#4e3785' }}
+          bodyStyle={{ backgroundColor: '#4e3785', overflow: 'scroll' }}
           titleStyle={{ backgroundColor: '#4e3785' }}
           actionsContainerStyle={{ backgroundColor: '#4e3785' }}
+          style={{overflow: 'scroll'}}
           title="Detalhes"
           actions={actions}
-          modal={true}
-          open={_showAInfoDialog}
+           open={_showAInfoDialog}
         >
           <Dados data={_currentInfo} doNotshowExtra={true} showAllInfo={_showAllInfo}/>
         </Dialog>

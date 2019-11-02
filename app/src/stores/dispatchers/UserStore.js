@@ -22,7 +22,7 @@ export default class UserStore extends Base {
     _snackIsShowing = false;
     @observable _msg = '';
 
-    _version = "1.0.4";
+    _version = "1.0.5";
     _navigator = false;
     _lastRoute = false;
     _lastRouteGoBack = false;
@@ -34,6 +34,7 @@ export default class UserStore extends Base {
             _me.setOnline(snap.val());
         });
         _me._currentPage = this._const.ROUTE_HOME;
+        _me.emailLogin()
     }
 
     firebase = firebase

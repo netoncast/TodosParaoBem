@@ -16,7 +16,7 @@ class Perfil extends Base {
     return (
       <div style={{ textAlign: 'center' }}>
         <br /> 
-        <Dados showAll={true} data={this.props.userStore.root.usersStore} />
+        <Dados showAll={true} data={this.props.userStore.root.usersStore} showAllInfo={true} />
       </div>
     );
   }
